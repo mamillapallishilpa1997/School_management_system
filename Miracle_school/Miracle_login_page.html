@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Miracle Kids Pre School</title>
+  <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Miracle Kids Pre School</div>
+
+    <ul class="nav-links">
+      <li><a href="#" id="Home">Home</a></li>
+      <li><a href="#" id="Classes">Classes</a></li>
+      <li><a href="#" id="About">About</a></li>
+      <li><a href="#" id="Teachers">Teachers</a></li>
+      <li><a href="#" id="Contact">Contact</a></li>
+      <li><a href="#" id="login" class="login">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+<section class="login-section">
+    <div class="login-card">
+      <h2>Login</h2>
+
+      <form>
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter username" required>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" required>
+        </div>
+
+        <div class="options">
+          <a href="#" class="forgot-password">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="login-btn">Login</button>
+      </form>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script src="../supabaseClient.js"></script>
+  <script src="./Miracle_page.js"></script>
+</body>
+</html>

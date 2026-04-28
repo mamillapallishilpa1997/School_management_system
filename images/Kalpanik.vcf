@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+UID:352404000000003003
+X-CONTACT-STATUS:ADDED
+FN:Kalpanik Films
+NICKNAME:Kalpanik Films
+N:Films;Kalpanik;;;
+EMAIL;TYPE=internet:kalpanikfilms@gmail.com
+EMAIL;TYPE=pref,internet:vishalyoman@kalpanikfilms.com
+EMAIL;TYPE=internet:contact@kalpanikfilms.com
+EMAIL;TYPE=internet:admin@kalpanikfilms.com
+EMAIL;TYPE=internet:creative@kalpanikfilms.com
+PRODID:ez-vcard 0.9.5
+END:VCARD

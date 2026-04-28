@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Dashboard</title>
+    <link rel="stylesheet" href="Miracle_admin.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2 class="logo">Miracle kids pre School</h2>
+
+        <ul class="nav-links">
+            <li class="dropdown">
+                <button class="dropbtn">Services ▾</button>
+                <div class="dropdown-content">
+                    <a href="#" id="Enter_std_det">Enter Student Details</a>
+                    <a href="#">All Students Details</a>
+                    <a href="#">Enter Teacher Details</a>
+                    <a href="#">All Teachers Details</a>
+                    <a href="#">Search Student</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+<div class="container">
+    <h1>Welcome to Dashboard</h1>
+
+    <!-- Notice Board -->
+    <div class="notice-board">
+        <h2>Notice Board (Editable)</h2>
+
+        <textarea placeholder="Write notices here..."></textarea>
+
+        <!-- Image Upload -->
+        <input type="file" id="imageUpload" accept="image/*">
+        <br><br>
+
+        <!-- Image Preview -->
+        <img id="preview" src="" alt="Image Preview" style="display:none;">
+
+        <br>
+        <button>Save Notice</button>
+    </div>
+</div>
+
+</body>
+</html>
